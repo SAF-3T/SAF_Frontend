@@ -11,8 +11,7 @@ import axios from 'axios';
 const Modal = ({ onClose = () => { } }) => {
 
     const [TiposCarrocerias, setTiposCarrocerias] = useState([])
-    const [IdTipoCarga, setIdTipoCarga] = useState('')
-    const [IdTipoCarroceria, setIdTipoCarroceria] = useState('')
+    const [idTipoCarroceria, setIdTipoCarroceria] = useState('')
     const [Cubagem, setCubagem] = useState('')
     const [Peso, setPeso] = useState('')
 

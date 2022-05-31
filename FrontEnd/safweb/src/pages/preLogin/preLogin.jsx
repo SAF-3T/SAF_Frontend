@@ -42,7 +42,7 @@ export default function PreLogin() {
             <footer className="footerPreLogin">
                 <FontAwesomeIcon icon={faGithub} color="#FFFFFF" size='2x' />
                 <span style={{ color: '#FFF' }}>|</span>
-                <a href="https://github.com/SAF-SENAI-3T/SAF-3T" target="_blank" className="pLinkEsquerdoFooter"><strong>Acesse nosso portifólio no GitHub</strong></a>
+                <a href="https://github.com/SAF-SENAI-3T/SAF-3T" target="blank" className="pLinkEsquerdoFooter"><strong>Acesse nosso portifólio no GitHub</strong></a>
             </footer>
         </div>
     )

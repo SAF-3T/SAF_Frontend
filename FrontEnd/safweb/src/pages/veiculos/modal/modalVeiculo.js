@@ -9,9 +9,8 @@ import 'notyf/notyf.min.css';
 
 import MaskedInputPlaca from '../MaskedInputPlaca';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faImage } from '@fortawesome/free-solid-svg-icons';
-import { faClose } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faClose } from '@fortawesome/free-solid-svg-icons';
 
 export default function Modal({ onClose = () => { } }) {
 

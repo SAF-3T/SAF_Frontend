@@ -9,27 +9,26 @@ import MaskedInput from '../../login/MaskedInput';
 import { Notyf } from 'notyf';
 import 'notyf/notyf.min.css';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faImage } from '@fortawesome/free-solid-svg-icons';
-import { faClose } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faClose } from '@fortawesome/free-solid-svg-icons';
 
 const Modal = ({ onClose = () => { }, children }) => {
 
     const notyf = new Notyf();
 
-    const initialValues = {
-        cpf: '',
-        tel: ''
-    };
+    // const initialValues = {
+    //     cpf: '',
+    //     tel: ''
+    // };
 
-    const [values, setValues] = useState(initialValues)
+    // const [values, setValues] = useState(initialValues)
 
-    function handleChange(event) {
-        setValues({
-            ...values,
-            [event.target.value]: event.target.value
-        });
-    }
+    // function handleChange(event) {
+    //     setValues({
+    //         ...values,
+    //         [event.target.value]: event.target.value
+    //     });
+    // }
 
     //Cadastrar
     const [IdTipoUsuario, setIdTipoUsuario] = useState('');
