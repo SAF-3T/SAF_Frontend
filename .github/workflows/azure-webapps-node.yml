@@ -74,6 +74,6 @@ jobs:
       id: deploy-to-webapp 
       uses: azure/webapps-deploy@v2
       with:
-        app-name: ${{ Frontend-SAF }}
+        app-name: 'Frontend-SAF'
         publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A6F39937E2774AF5951AB3FFC5657B74 }}
         package: 'build'
