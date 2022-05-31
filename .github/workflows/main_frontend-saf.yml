@@ -53,4 +53,4 @@ jobs:
           app-name: 'Frontend-SAF'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A6F39937E2774AF5951AB3FFC5657B74 }}
-          package: .
+          package: 'build'
