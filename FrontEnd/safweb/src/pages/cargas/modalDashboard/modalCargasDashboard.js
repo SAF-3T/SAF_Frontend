@@ -12,7 +12,7 @@ import { faClose } from '@fortawesome/free-solid-svg-icons'
 
 const Modal = ({ onClose = () => { } }) => {
 
-    // const [Carga, setCarga] = useState([]);
+    const [Carga, setCarga] = useState([]);
     const [NovaCarga, setNovaCarga] = useState('');
     const [Disponibiliade, setDisponibilidade] = useState('');
 
