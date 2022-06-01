@@ -136,6 +136,8 @@
 .img1 {
     width: 200px;
     height: 200px;
+    border-radius: 5px;
+    
     margin: 20px auto 10px;
     background-image: url("../../assets/imgs/IMGCheckList.png");
     background-repeat: no-repeat;
@@ -143,10 +145,11 @@
 }
 
 .img2 {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
     margin: 20px auto 10px;
-    background-image: url("../../assets/imgs/IMGCheckList.png");
+    background-image: url("../../assets/imgs/ComparacaoIMGs.png");
     background-repeat: no-repeat;
     background-size: cover;
 }

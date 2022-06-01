@@ -25,15 +25,15 @@ export default function PreLogin() {
             <main>
                 <div className="cardsPreLogin">
                     <div className="cardPreLogin">
-                        <div className="imgCard img1" />
+                        <div className="img1" />
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sapiente excepturi iste corporis quos libero voluptate aut consequatur, facere eveniet fugit accusamus ab blanditiis ad quaerat numquam, quam quo dignissimos?</p>
                     </div>
                     <div className="cardPreLogin">
-                        <div className="imgCard img2"/>
+                        <div className="img2"/>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sapiente excepturi iste corporis quos libero voluptate aut consequatur, facere eveniet fugit accusamus ab blanditiis ad quaerat numquam, quam quo dignissimos?</p>
                     </div>
                     <div className="cardPreLogin">
-                        <div className="imgCard img3" />
+                        <div className="img3" />
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo sapiente excepturi iste corporis quos libero voluptate aut consequatur, facere eveniet fugit accusamus ab blanditiis ad quaerat numquam, quam quo dignissimos?</p>
                     </div>
                 </div>
